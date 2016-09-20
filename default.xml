@@ -7,16 +7,16 @@
          enumerate all submodules used by ToT HCC in the manifest -->
 
     <!-- ToT HCC -->
-    <project name="RadeonOpenCompute/hcc"
+    <project name="HuiWritingFoo/hcc"
              path="hcc"
              remote="github"
-             revision="clang_tot_upgrade"/>
+             revision="cudabackend"/>
 
     <!-- ToT HCC Clang -->
-    <project name="RadeonOpenCompute/hcc-clang-upgrade"
+    <project name="HuiWritingFoo/hcc-clang-upgrade"
              path="hcc/clang"
              remote="github"
-             revision="clang_tot_upgrade"/>
+             revision="cudabackend"/>
 
     <!-- amd-hcc LLVM placed inside ToT HCC -->
     <project name="RadeonOpenCompute/llvm"
