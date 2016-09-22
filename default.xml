@@ -19,10 +19,10 @@
              revision="cudabackend"/>
 
     <!-- amd-hcc LLVM placed inside ToT HCC -->
-    <project name="RadeonOpenCompute/llvm"
+    <project name="HuiWritingFoo/llvm"
              path="hcc/compiler"
              remote="github"
-             revision="amd-hcc"/>
+             revision="amd-hcc-cudabackend"/>
 
     <!-- amd-common LLD, placed inside ToT HCC -->
     <project name="RadeonOpenCompute/lld"
